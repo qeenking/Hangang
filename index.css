@@ -87,19 +87,30 @@ body{
     margin-right: 20%;
 }
 
-.button1:hover{
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: #516da6;
+}
+
+.button1:hover, a:hover{
     background-color: #2D3C59;
     margin-top: -2%;
     color: white;
     transition-duration: 0.5s
 }
 
-.button2:hover{
+.button2:hover, a:hover{
     background-color: #2D3C59;
     margin-top: -2%;
     color: white;
     transition-duration: 0.5s
 }
+
+
+
 
 @media screen and (min-width: 1000px){
     body{
@@ -139,5 +150,5 @@ body{
     .text3{
         margin-right: 22%;
     }
-
+    
 } 
