@@ -30,38 +30,13 @@ body{
 
 .pic{
     position: absolute;
-    top: 14%;
+    top: 16%;
     z-index: 0;
     border-radius: 5%;
 }
 
-.showing{
-    z-index: 1;
-}
-
-#before, #next{
-    background-color: unset;
-    border: none;
-    z-index: 1;
-    position: absolute;
-}
-
-#before{
-    left: 15%;
-    top: 48%;
-    color: white;
-    font-size: 4vw;
-}
-
-#next{
-    right: 15%;
-    top: 48%;
-    color: white;
-    font-size: 4vw;
-}
-
 .pic2{
-    z-index: 2;
+    z-index: 1;
 }
 
 .title{
