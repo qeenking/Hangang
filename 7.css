@@ -25,7 +25,7 @@ body{
     align-items: center;
     padding: 5% 0;
     color: #2D3C59;
-    font-size: larger;
+    font-size: 3vw;
     font-weight: bolder;
 }
 
@@ -70,11 +70,15 @@ img{
     padding-top: 25vh;
     background-color: white;
     padding-left: 3%;
-    padding-bottom: 3%;
+    padding-bottom: 100%;
 }
 
 @media screen and (min-width: 1000px){
     body{
         padding: 0 20%;
+    }
+
+    .text{
+        font-size: 2.5vw;
     }
 }

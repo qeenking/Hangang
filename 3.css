@@ -43,8 +43,8 @@ body{
     display: flex;
     align-items: center;
     font-weight: bolder;
-    font-size: 2.7vh;
-    padding-left: 20%;
+    font-size: 3vw;
+    padding-left: 18%;
     padding-bottom: 2%;
 }
 
@@ -57,9 +57,58 @@ body{
     color: #E8E8E8;
 }
 
+.inputline{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.input1{
+    width: 66%;
+    border: none;
+    border-bottom: 3px solid #2D3C59;
+}
 
-@media screen and (min-width: 1000px){
+.bottom{
+    background-color: white;
+    padding-left: 18%;
+    padding-top: 3%;
+    font-size: 3vw;
+    color: #2D3C59;
+    font-weight: bolder;
+}
+
+.input2{
+    background-color: #E8E8E8;
+    width: 70%;
+    height: 5vh;
+    border: none;
+    border-radius: 10px;
+}
+
+.comment{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    font-weight: bolder;
+}
+
+.comments{
+    background-color: white;
+    padding-left: 18%;
+    padding-top: 2%;
+    font-size: 3vw;
+    font-weight: bolder;
+}
+
+.comments2{
+    padding-bottom: 100%;
+}
+
+@media screen and (min-width: 900px){
     body{
         padding: 0 20%;
     }
@@ -70,5 +119,13 @@ body{
 
     .main{
         height: 38vw;
+    }
+
+    .input2{
+        height: 7vh;
+    }
+
+    .comments, .title, .bottom {
+        font-size: 2vw;
     }
 }
