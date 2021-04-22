@@ -163,4 +163,12 @@ a:visited{
     body{
         padding: 0;
     }
+
+    .text1{
+        margin-right: 28vw;
+    }
+
+    .text3{
+        margin-right: 21vw;
+    }
 }
