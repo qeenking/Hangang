@@ -148,11 +148,15 @@ body{
 }
 
 .navbar{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: min-content;
+    z-index: 2;
     display: flex;
     align-items: center;
-    justify-content: center;
     background-color: #E8E8E8;
-    padding-right: 4%;
+    padding-left: 4%;
 }
 
 .nav{
@@ -178,5 +182,9 @@ body{
 
     .comments, .title, .bottom {
         font-size: 2vw;
+    }
+
+    .navbar{
+        width: 60%;
     }
 }
