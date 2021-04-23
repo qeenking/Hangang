@@ -1,7 +1,7 @@
 const nextBtn = document.getElementById("next");
 const beforeBtn = document.getElementById("before");
 const firstSlide = document.querySelector(".slide1");
-const lastSlide = document.querySelector(".slide5");
+const lastSlide = document.querySelector(".slide3");
 
 const SHOWING_VALUE = "showing";
 

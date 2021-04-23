@@ -47,15 +47,15 @@ body{
 }
 
 #before{
-    left: 15%;
-    top: 48%;
+    left: 33%;
+    top: 54%;
     color: white;
     font-size: 4vw;
 }
 
 #next{
-    right: 15%;
-    top: 48%;
+    right: 33%;
+    top: 54%;
     color: white;
     font-size: 4vw;
 }
@@ -103,6 +103,13 @@ body{
     font-size: 3vw;
     color: #2D3C59;
     font-weight: bolder;
+    display: flex;
+    align-items: center;
+}
+
+.play{
+    width: 19%;
+    margin: -6% -4% -6% -8%;
 }
 
 .input2{
@@ -111,6 +118,11 @@ body{
     height: 4.7vh;
     border: none;
     border-radius: 10px;
+}
+
+.play2{
+    width: 12%;
+    margin-left: -10%;
 }
 
 .comment{
@@ -131,10 +143,22 @@ body{
 }
 
 .comments2{
-    padding-bottom: 100%;
+    padding-bottom: 30%;
 }
 
-@media screen and (min-width: 900px){
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E8E8E8;
+    padding-right: 4%;
+}
+
+.nav{
+    margin-right: 23%;
+}
+
+@media screen and (min-width: 1000px){
     body{
         padding: 0 20%;
     }
