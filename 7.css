@@ -48,30 +48,19 @@ img{
     align-items: center;
 }
 
-.circle{
-    border-radius: 50%;
-    background-color: #2D3C59;
-    width: 5vw;
-    height: 5vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.triangle{
-    margin-left: 7%;
-    width: 0;
-    height: 0;
-    border-top: 1vw solid transparent;
-    border-left: 2vw solid white;
-    border-bottom: 1vw solid transparent;
+.play{
+    width: 20%;
 }
 
 .bottom{
     padding-top: 25vh;
     background-color: white;
     padding-left: 3%;
-    padding-bottom: 100%;
+    padding-bottom: 7%;
+}
+
+.arrow{
+    width: 17%;
 }
 
 @media screen and (min-width: 1000px){
