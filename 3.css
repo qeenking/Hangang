@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     padding-top: 10%;
     background-color: #e8e8e8;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -8,15 +9,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top-left-radius: 90%;
-    border-top-right-radius: 90%;
-    height: 30%;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
     background-color: white;
 }
 
 .symimg{
-    margin-top: 2%;
-    width: 43%;
+    margin-top: 10%;
+    width: 35%;
 }
 
 .main{
@@ -26,10 +26,11 @@ body{
     justify-content: center;
     align-items: baseline;
     position: relative;
-    height: 51vw;
+    height: 69vw;
 }
 
 .pic{
+    height: 83%;
     position: absolute;
     top: 14%;
     z-index: 0;
@@ -47,21 +48,38 @@ body{
     position: absolute;
 }
 
-#before{
-    left: 33%;
-    top: 54%;
+#next{
+    right: 1%;
+    top: 50%;
     color: white;
     font-size: 4vw;
+    width: 13%;
 }
 
-#next{
-    right: 33%;
-    top: 54%;
+#before{
+    left: 1%;
+    top: 50%;
     color: white;
     font-size: 4vw;
+    width: 13%;
+}
+
+.arrow{
+    width: 100%;
+}
+
+#before:hover{
+    cursor: pointer;
+    left: 0%;
+}
+
+#next:hover{
+    cursor: pointer;
+    right: 0%;
 }
 
 .pic2{
+    height: 30%;
     z-index: 2;
 }
 
@@ -70,18 +88,29 @@ body{
     display: flex;
     align-items: center;
     font-weight: bolder;
-    font-size: 3vw;
-    padding-left: 18%;
+    font-size: 4vw;
+    padding-left: 6%;
     padding-bottom: 2%;
 }
 
 .text1{
     margin-right: 3%;
     color: #2D3C59;
+    font-family: 'Jua', sans-serif;
 }
 
 .text2{
-    color: #E8E8E8;
+    color: #bdbaba;
+    font-family: 'Jua', sans-serif;
+}
+
+.text4{
+    margin-right: 3%;
+    color: #2D3C59;
+}
+
+.text5{
+    color: #bdbaba;
 }
 
 .inputline{
@@ -92,14 +121,14 @@ body{
 }
 
 .input1{
-    width: 66%;
+    width: 88%;
     border: none;
     border-bottom: 3px solid #2D3C59;
 }
 
 .bottom{
     background-color: white;
-    padding-left: 18%;
+    padding-left: 8%;
     padding-top: 3%;
     font-size: 3vw;
     color: #2D3C59;
@@ -115,7 +144,7 @@ body{
 
 .input2{
     background-color: #E8E8E8;
-    width: 70%;
+    width: 88%;
     height: 4.7vh;
     border: none;
     border-radius: 10px;
@@ -137,7 +166,7 @@ body{
 
 .comments{
     background-color: white;
-    padding-left: 18%;
+    padding-left: 9%;
     padding-top: 2%;
     font-size: 3vw;
     font-weight: bolder;
