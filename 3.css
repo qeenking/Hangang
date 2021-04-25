@@ -105,7 +105,7 @@ body{
 }
 
 .text4{
-    margin-right: 3%;
+    margin-left: 5%;
     color: #2D3C59;
 }
 
@@ -137,9 +137,23 @@ body{
     align-items: center;
 }
 
-.play{
-    width: 19%;
-    margin: -6% -4% -6% -8%;
+.play, .play3{
+    width: 10%;
+    position: absolute;
+    margin-left: -4%;
+    z-index: 0;
+}
+
+.play:hover{
+    cursor: pointer;
+}
+
+.listen2{
+    visibility: hidden;
+}
+
+.listen{
+    visibility: visible;
 }
 
 .input2{
@@ -185,11 +199,13 @@ body{
     display: flex;
     align-items: center;
     background-color: #E8E8E8;
-    padding-left: 4%;
 }
 
-.nav{
-    margin-right: 23%;
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;    
 }
 
 @media screen and (min-width: 1000px){
