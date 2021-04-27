@@ -1,0 +1,162 @@
+body{
+    background-color: #e8e8e8;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 10%;
+}
+
+
+.symbol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 100%;
+    background-color: white;
+}
+
+
+.symimg{
+    margin-top: 10%;
+    width: 35%;
+}
+
+
+.input{
+    background-color: #E8E8E8;
+    width: 88%;
+    height: 4.7vw;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15%;
+}
+
+.search-button{
+    width: 12%;
+    height: 12vw;
+    margin-left: -10%;
+    margin-top: 15%;
+}
+
+.search{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    font-weight: bolder;
+}
+
+.middle{
+  background-color: white;
+  padding: 0 0 2% 0;
+}
+
+.album-cover{
+  width: 28.1%;
+  height: 12.3%;
+  margin: 0% 63% 43.1% 8.9%;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.song-title{
+  width: 14.9%;
+  height: 2.3%;
+  margin: -65% 42.6% 50.3% 42.5%;
+  font-size: 3.5vw;
+  color: #2d3c59;
+  font-family: Jua;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: 3.48px;
+  text-align: left;
+  color: var(--dark-grey-blue);
+}
+
+.singer{
+  width: 49.2%;
+  height: 2.1%;
+  margin: -50% 8.4% 47.6% 42.5%;
+  font-size: 3vw;
+  color: #bdbaba;
+  opacity: 0.5;
+  font-family: Jua;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: 3.11px;
+  text-align: left;
+  color: var(--dark-grey-blue);
+}
+
+.play{
+  margin: -10% 0 0 0;
+  background-color: white;
+}
+
+.play-button{
+  display:inline-block;
+  justify-content: center;
+  align-items: center;
+  width: 10.8%;
+  height: 10.8vw;
+  margin-left: 46%;
+  margin-bottom: 30%;
+  margin-top: 0%;
+  background-color: white;
+}
+
+
+.navbar{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: min-content;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding:0;
+}
+.navbar a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;    
+}
+.nav{
+    width: 38%;
+}
+
+
+@media screen and (min-width: 1000px){
+    body{
+        padding: 0 20%;
+        padding-top: 10%;
+        
+    }
+    .search-button{
+      margin-bottom: 15%;
+      margin-left: 65%;
+      width: 15%;
+      height: 8vw;
+    }
+    .singer{
+      font-size: 2vw;
+    }
+    .play-button{
+      height: 6vw;
+    }
+    .input{
+      margin: 0 -77% 0 5%;
+    }
+    .middle{
+      margin-top: -15%;
+    }
+    .navbar{
+      width:60%;
+    }
+  }

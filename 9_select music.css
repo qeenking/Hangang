@@ -1,0 +1,110 @@
+body{
+    background-color: white;
+    /*padding: 0 10%;*/
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.middle{ /*이후에 8페이지도 이거처럼 수정하기*/
+    width: 100%;
+    height:100%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    margin-top:-11%;
+    padding-bottom: 15%;
+    background-color: white;
+    /*z-index:-1;*/
+}
+
+.dropdown{
+	width: 75.7%;
+    height: min-content;
+    background-color: #e8e8e8;
+    overflow: auto;
+    border-radius: 3%;
+    margin-top: 17%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35%;
+}
+
+
+.list-group-item.d-flex.justify-content-between.lh-condensed{
+    background-color: #e8e8e8;
+    border-collapse: collapse;
+    border-radius: 3%;
+}
+
+.col-9 a{
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: left;
+    color: #2d3c59;
+    display: block;
+}
+
+
+.col-3{
+    padding-left:3%;
+    padding-right: 3%;
+}
+.col-9{
+    padding-left: 3%;
+}
+
+.col-3 img{
+    width: 100%;
+}
+.col-9 h6{
+    color: #2d3c59;
+    font-weight: bold;
+    width:100%;
+}
+
+.row{
+    width: 80%;
+}
+
+.navbar{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: min-content;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding:0;
+}
+.navbar a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;    
+}
+.nav{
+    width: 38%;
+}
+
+
+@media screen and (min-width: 1000px){
+    body{
+        padding: 0 20%;
+        background-color: #e8e8e8;
+    }
+    .middle{
+    	background-color: white;
+        padding-bottom:25%;
+    }
+    .navbar{
+        width:60%;
+    }
+
+    
+}

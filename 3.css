@@ -201,6 +201,14 @@ body{
     background-color: #E8E8E8;
 }
 
+.nav{
+    margin-left: 3%;
+}
+
+.nav2{
+    margin-left: 6%;
+}
+
 a{
     display: flex;
     justify-content: center;
@@ -211,6 +219,8 @@ a{
 @media screen and (min-width: 1000px){
     body{
         padding: 0 20%;
+        padding-top: 10%;
+        
     }
 
     .pic{
