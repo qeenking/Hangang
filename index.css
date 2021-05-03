@@ -5,6 +5,58 @@ body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.openBtn, .closeBtn{
+    all: unset;
+    background-color: turquoise;
+    border: 1px solid turquoise;
+    border-radius: 30px;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 6vw;
+    height: 6vw;
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal_overlay{
+    background-color: gray;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.5;
+}
+
+.modal_content{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 50%;
+    background-color: white;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 40px;
+    padding: 30px 40px;
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+
 .symbol{
     display: flex;
     justify-content: center;
@@ -175,4 +227,15 @@ a:visited{
         margin-right: 25%;
     }
     
+    .openBtn{
+        width: 5vw;
+        height: 4vw;
+        font-size: 2vw;
+    }
+
+    .closeBtn{
+        width: 2vw;
+        height: 2vw;
+        font-size: 2vw;
+    }
 } 
